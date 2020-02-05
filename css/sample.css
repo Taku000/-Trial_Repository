@@ -1,31 +1,51 @@
-#header{
-    
-}
-.miniheader1{
+
+#miniheader1{
     display: flex;
-    width: auto;
-    background-color: blue;
+    width: 100%;
+    background-color: rgb(86, 86, 187);
 }
 .searcher{
+    height: 50px;
     margin-top: auto;
     margin-left: 150px;
-    margin-bottom: 0;
+    margin-bottom: 5px;
+    background-color: blueviolet;
 }
-.btn-regist{
-    margin-top: auto;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-left: auto;
-    text-decoration: none;
+.searchbox{
+    height: 100%;
+    width: 250px;
+    text-align: center;
+    background-color: rgb(240, 239, 239);
+    border: solid 2px rgb(0, 0, 0);
+    border-radius: 20px;
+    
+}
+.searchsubmit{
+    width: 50px;
+    height: 40px;
+    background-color: rgb(216, 216, 216);
+    border: solid 3px #6b6b6b;
+    border-radius: 10px;
+}
+.searchsubmit:active{
+    border: solid 2px rgb(255, 255, 255);
+}
+
+.btn{
+    width: 70px;
+    height: 70px;
+    margin: auto 0 5px auto;
+    text-decoration: none; 
     background-color: rgb(216, 216, 216);
     color: rgb(0, 0, 0);
-    border: solid 3px #6b6b6b;
+    border: solid 3px #6b6b6b; 
+    border-radius: 10px;
 }
-.btn-regist:active{
+.btn:active{
 
     border: solid 3px rgb(255, 255, 255);
 }
-.logo{
+#logo{
     width: 150px;
     text-align:center;
     line-height: 150px;
