@@ -61,20 +61,36 @@
     margin-bottom: 0;
     background-color: rgb(218, 135, 12);
 }
+#categori{
+    margin: 0;
+    display: flex;
+
+}
 .parents_categori{
-    width: 200px;
+    width: 190px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: rgb(216, 216, 216);
     border: solid 5px #6b6b6b; 
-    margin: 0 auto 0 30px;
-
+    margin: 0 auto 0 20px;
+}
+#drop_icon{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    border: solid 5px #6b6b6b; 
+    margin: 0;    
 }
 #categori1{
     margin-left: 150px;
     
 }
-#categori4{
-    margin-right: 140px;
+#allcategori{
+    width: 10%;
+    margin-right: 40px;
+    border-radius: 50px;
+    font-size: 70%;
 }
