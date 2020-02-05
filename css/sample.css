@@ -4,10 +4,11 @@
 .miniheader1{
     display: flex;
     width: auto;
+    background-color: blue;
 }
 .searcher{
     margin-top: auto;
-    margin-left: auto;
+    margin-left: 150px;
     margin-bottom: 0;
 }
 .btn-regist{
