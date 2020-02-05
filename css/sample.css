@@ -2,7 +2,15 @@
 #miniheader1{
     display: flex;
     width: 100%;
+    height: 140px;
     background-color: rgb(86, 86, 187);
+}
+#miniheader2{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: darkslateblue;
+    
 }
 .searcher{
     height: 50px;
@@ -32,14 +40,14 @@
 }
 
 .btn{
-    width: 70px;
+    width: 140px;
     height: 70px;
     margin: auto 0 5px auto;
     text-decoration: none; 
     background-color: rgb(216, 216, 216);
     color: rgb(0, 0, 0);
     border: solid 3px #6b6b6b; 
-    border-radius: 10px;
+    border-radius: 40px;
 }
 .btn:active{
 
@@ -52,4 +60,21 @@
     margin-top: 0;
     margin-bottom: 0;
     background-color: rgb(218, 135, 12);
+}
+.parents_categori{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(216, 216, 216);
+    border: solid 5px #6b6b6b; 
+    margin: 0 auto 0 30px;
+
+}
+#categori1{
+    margin-left: 150px;
+    
+}
+#categori4{
+    margin-right: 140px;
 }
