@@ -4,6 +4,7 @@
 .miniheader1{
     display: flex;
     width: auto;
+    background-color: blue;
 }
 .searcher{
     margin-top: auto;
