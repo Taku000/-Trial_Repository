@@ -26,7 +26,7 @@
      position: relative;
      display: flex;
      justify-content: flex-start;
-    width: 400px;
+    width: 40%;
     height: 80px;
     background-color: rgba(139, 0, 0, 0);
     outline:0;
@@ -36,11 +36,12 @@
     position: absolute;
     bottom:  0;
     right: 0;
-    width: 300px;
-    height: 60%;
+    width: 80%;
+    height: 70%;
     background-color: rgb(239, 240, 241);
     border-radius:25px;
     outline:0;
+    box-shadow: inset -2px -3px 2px rgb(68, 68, 68), 0 2px 2px rgba(0, 0, 0, 0.19);
     
   
 }
@@ -49,10 +50,11 @@
     bottom: 0;
     right: 0;
     width: 20%;
-    height: 60%;
+    height: 70%;
     border-radius:0 25px 25px 0;
     background-color: rgb(107, 152, 197);
     outline:0;
+    box-shadow: inset -2px -3px 2px rgb(68, 68, 68), 0 2px 2px rgba(0, 0, 0, 0.19);
 }
 #search_button:active{
     background-color: rgb(69, 103, 138);
